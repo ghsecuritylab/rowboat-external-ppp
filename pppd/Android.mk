@@ -34,7 +34,8 @@ LOCAL_C_INCLUDES := \
 
 LOCAL_CFLAGS := -DANDROID_CHANGES -DCHAPMS=1 -DMPPE=1 -Iexternal/openssl/include
 
-LOCAL_MODULE:= pppd
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE:= pppd-ril
 
 include $(BUILD_EXECUTABLE)
 
